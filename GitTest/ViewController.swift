@@ -10,16 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbl: UILabel!
+    @IBOutlet weak var txt: UITextField!
+    @IBOutlet weak var btn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    @IBAction func btnPress(_ sender: UIButton) {
+        if let text = self.txt.text{
+            self.lbl.text = text
+        }
+    }
+    
 
 }
 
