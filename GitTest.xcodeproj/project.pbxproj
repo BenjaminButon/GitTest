@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50555F0C20AD768A000648E1 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50555F0B20AD768A000648E1 /* Protocol.swift */; };
 		50A6EB7D20AD6FC400C9A340 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A6EB7C20AD6FC400C9A340 /* Person.swift */; };
 		50B464A020AD6A9C00A1C067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B4649F20AD6A9C00A1C067 /* AppDelegate.swift */; };
 		50B464A220AD6A9C00A1C067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B464A120AD6A9C00A1C067 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50555F0B20AD768A000648E1 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		50A6EB7C20AD6FC400C9A340 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		50B4649C20AD6A9B00A1C067 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B4649F20AD6A9C00A1C067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				50B464A820AD6A9C00A1C067 /* LaunchScreen.storyboard */,
 				50B464AB20AD6A9C00A1C067 /* Info.plist */,
 				50A6EB7C20AD6FC400C9A340 /* Person.swift */,
+				50555F0B20AD768A000648E1 /* Protocol.swift */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				50A6EB7D20AD6FC400C9A340 /* Person.swift in Sources */,
 				50B464A220AD6A9C00A1C067 /* ViewController.swift in Sources */,
 				50B464A020AD6A9C00A1C067 /* AppDelegate.swift in Sources */,
+				50555F0C20AD768A000648E1 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
