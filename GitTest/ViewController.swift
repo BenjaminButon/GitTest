@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var txt: UITextField!
     @IBOutlet weak var btn: UIButton!
     
+    var persons = [Person]()
     override func viewDidLoad() {
         super.viewDidLoad()
         
