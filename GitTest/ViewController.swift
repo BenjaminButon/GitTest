@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     var persons = [Person]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.backgroundColor = UIColor.blue
     }
 
     override func didReceiveMemoryWarning() {
