@@ -9,5 +9,5 @@
 import Foundation
 
 protocol SomeProtocol {
-    
+    func getName() -> String
 }
